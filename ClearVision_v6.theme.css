@@ -40,7 +40,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://media.tenor.com/Ep_QVNj--2gAAAAd/lick.gif); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://wallpaperaccess.com/full/8094964.gif); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -51,7 +51,7 @@
   --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
-  --background-blur: 5px; /* app background blur [default: 0px] */
+  --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
@@ -66,7 +66,7 @@
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
-  --backdrop-image: var(https://media.tenor.com/FdkbSvSxI9MAAAAd/chilled-lamb-mienar.gif); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
+  --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
   --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */
   --backdrop-size: var(--background-size); /* modal backdrop size [default: var(--background-size)] */
   --backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(--background-repeat)] */
